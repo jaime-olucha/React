@@ -94,3 +94,16 @@ const Header = () => {
 
 export default Header;
 ```
+
+---
+
+## SECCION 4: Primeros pasos con React
+
+### Primer Proyecto en React, Pasos:
+
+1. Crear directorio donde irá el proyecto.
+2. Crear entorno vite: `npm create vite`
+3. Crearlo con React, Typescript SWC.
+4. Instalar dependencias `npm install` (se instala por defecto si se lo dices).
+5. Correr el entorno `npm run dev` (lo hace por defecto si se lo dices)
+6. `Cntr+c` para salir, `npm run dev` para volver a entrar
