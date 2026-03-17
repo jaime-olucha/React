@@ -1,7 +1,7 @@
 // POR LO MENOS DEBE TENER UNA PRUEBA
 
 import { expect, test, describe } from 'vitest'
-import { add, substract, multiply } from './math.helper';
+import { add, substract, multiply, divide } from './math.helper';
 
 // Agrupador de pruebas
 describe('add', () => {
@@ -60,5 +60,17 @@ describe('multiply', () => {
         const result = multiply(a, b);
 
         expect(result).toBe(a * b);
+    })
+})
+
+describe('divide', () => {
+    test('sholuld divide two positive numbers', () => {
+
+        const a = 10;
+        const b = 5;
+
+        const result = divide(a, b);
+
+        expect(result).toBe(a / b);
     })
 })
