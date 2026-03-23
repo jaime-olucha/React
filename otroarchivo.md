@@ -602,3 +602,37 @@ describe("MyAwesomeApp", () => {
 PROBAR SIEMPRE LO MÁS FACIL Y MAS PEQUEÑO E IR CRECIENDO
 
 58. Disparador Eventos
+https://github.com/DevTalles-corp/react-first-steps/tree/fin-seccion-05 
+
+
+## SECCIÓN 6: Aplicacion de Gifs animados;
+En esta sección comenzaremos a trabajar de una forma estructurada React, que nos permita escalar proyectos y empezar a dejar el pensamiento de que necesitamos la separación en componentes pequeños fáciles de reutilizar y probar.
+
+- Peticiones HTTP
+- Debounce
+- Manejo de estado
+- Comunicación entre componentes
+- useEffect
+- Variables de entorno
+- Fuentes personalizadas
+- Entre otras cosas.
+
+La idea principal es dejar las bases de cómo podemos trabajar aplicaciones en React que nos permitan crecer y reutilizar su contenido a futuro.
+
+https://github.com/DevTalles-corp/react-ts-gifs/tree/fin-seccion-06 
+
+---
+
+## SECCIÓN 7: Optimización y despliegue;
+
+En esta sección aprenderemos mucho sobre cómo funciona React, puntualmente veremos:
+
+1. Custom Hooks - Hooks personalizados
+2. DevTools de React
+3. useRef - Hook propio de React
+4. Generar versión de producción
+5. Separación de responsabilidades
+
+Esta es una sección muy importante porque marca el antes y el después de cómo trabajar en React, ya que los custom hooks son lo que usaremos de aquí en adelante para evitar aglomerar los componentes con demasiada lógica.
+
+### CUSTOM H
