@@ -635,4 +635,6 @@ En esta sección aprenderemos mucho sobre cómo funciona React, puntualmente ver
 
 Esta es una sección muy importante porque marca el antes y el después de cómo trabajar en React, ya que los custom hooks son lo que usaremos de aquí en adelante para evitar aglomerar los componentes con demasiada lógica.
 
-### CUSTOM H
+### CUSTOM HOOKS
+
+Forma de personalizar tu propio hook, se debe empezar por use, evita repetir código.

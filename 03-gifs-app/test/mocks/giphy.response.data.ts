@@ -1,10 +1,10 @@
 export interface GiphyResponse {
-    data: GiphyGif[];
+    data: Datum[];
     meta: Meta;
     pagination: Pagination;
 }
 
-export interface GiphyGif {
+export interface Datum {
     type: Type;
     id: string;
     url: string;
@@ -27,6 +27,7 @@ export interface GiphyGif {
     analytics: Analytics;
     alt_text: string;
     is_low_contrast: boolean;
+    user?: User;
 }
 
 export interface Analytics {
@@ -62,9 +63,26 @@ export interface FixedHeight {
     hash?: string;
 }
 
-export type Rating = 'G';
+export enum Rating {
+    G = "g",
+}
 
-export type Type = 'gif';
+export enum Type {
+    GIF = "gif",
+}
+
+export interface User {
+    avatar_url: string;
+    banner_image: string;
+    banner_url: string;
+    profile_url: string;
+    username: string;
+    display_name: string;
+    description: string;
+    instagram_url: string;
+    website_url: string;
+    is_verified: boolean;
+}
 
 export interface Meta {
     status: number;

@@ -1,0 +1,26 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CustomHeader > should render the description when provided 1`] = `
+<div>
+  <div
+    class="content-center"
+  >
+    <h1>
+      My title
+    </h1>
+    <p>
+      description
+    </p>
+  </div>
+</div>
+`;
+
+exports[`GifsApp > Should render component properly 1`] = `
+<div>
+  <div
+    class="content-center"
+  >
+    <h1 />
+  </div>
+</div>
+`;
